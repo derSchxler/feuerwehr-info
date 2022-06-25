@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>LZ-Zühlsdorf</title>
+  <link rel="stylesheet" href="css\cssforffinfo.css">
+  <link rel="icon" type="image/x-icon" href="lzzd/favicon.icon">
+</head>
+<body>
+  <div id="ALLES">
+    <!--Navbar-->
+    <div class="Upbut">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Nach Oben</button>
+      <style media="screen">
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: #555; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+
+      #myBtn:hover {
+        background-color: red;
+      }
+
+      </style>
+      <script type="text/javascript">
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+      </script>
+    </div>
+    <div class="navbar">
+      <a href="https://feuerwehr-info.de">Home</a>
+      <a href="mailto:info.feuerwehr@web.de">E-Mail</a>
+      <a href="https://www.donationalerts.com/r/feuerwehr_info">Unterstützte mich</a>
+      <button class="navbut" type="button" onclick="window.print()" name="button">&#128424;</button>
+    </div>
+    <!--Hauptteil mit Bild und Überschrift-->
+    <div class="haupt">
+    <header class="hauptt">
+    <h1 class="ht">LZ-Zühlsdorf</h1>
+    </div>
+    <br>
+    <br>
+    <div class="infotext">
+      <h3>Löschzug Zühlsdorf</h3>
+      <img class="ffb" src="lzzd/lzzd.jpg" height="300" alt="Feuerwache Zühlsdorf">
+      <p align="left">
+      <br>
+      <b>Zugführer:</b>
+      <br>
+      <br>
+      <b>Herr Klaus-Dieter Hinz</b>
+      <br>
+      <br>
+      Gegründet: 1924
+      <br>
+      <br>
+      Einsatzabteilung: 27
+      <br>
+      Jugendabteilung: 10
+      </p>
+
+    </div>
+    <br><br><br>
+    <div class="fahrzeuge">
+      <h3>Fahrzeuge</h3>
+      <a href="#ff1">LF-8/6 (Florian Oberhavel 15/42-02)</a>
+      <br><br>
+      <a href="#ff2">MTF (Florian Oberhavel 15/19-1)</a>
+      <br><br>
+      <a href="#ff3">KdoW (Florian Oberhavel 15/14-03)</a>
+      <br><br>
+
+    </div>
+    <br><br><br><br>
+    <div id = "ff1">
+      <br><br>
+      <h4 align="center"><u>LF-8/6</u></h4>
+      <div class="lf">
+        <p>
+          <b>Löschgruppenfahrzeug (LF-8/6) der FF Zühlsdorf,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: MAN
+          <br><br>
+          Aufbau: Metz FGL
+          <br><br>
+          Baujahr: 2002
+        </b></p>
+      </div>
+      <br><br><br>
+      <img class="ffb" src="lzzd/lf86.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <div id = "ff2">
+      <br>
+      <h4 align="center"><u>MTW</u></h4>
+      <div class="tlf">
+        <p><b>
+          Mannschaftstransportwagen (MTW) der FF Zühlsdorf,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: Mercedes-Benz, Vito Tourer
+          <br><br>
+          Aufbau: Fa. Bendich, Berlin
+          <br><br>
+          Baujahr: 2020
+        </b></p>
+      </div>
+      <br><br><br><br>
+      <img class="ffb" src="lzzd/mtf.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <div id = "ff3">
+      <br>
+      <h4 align="center"><u>KdoW</u></h4>
+      <div class="mtf">
+        <p><b>
+          Kommandowagen (KdoW) der FF Zühlsdorf,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: VW T6
+          <br><br>
+          Aufbau: Binz
+          <br><br>
+          Baujahr: 2018
+        </b></p>
+      </div>
+      <br><br><br><br>
+      <img class="ffb" src="lzzd/kdow.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <br>
+    <br>
+    <br>
+  </div>
+</body>
+</html>
