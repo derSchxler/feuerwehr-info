@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>LZ-Schildow</title>
+  <link rel="stylesheet" href="css\cssforffinfo.css">
+  <link rel="icon" type="image/x-icon" href="lzsd/favicon.icon">
+</head>
+<body>
+  <div id="ALLES">
+    <!--Navbar-->
+    <div class="Upbut">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Nach Oben</button>
+      <style media="screen">
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: #555; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+
+      #myBtn:hover {
+        background-color: red;
+      }
+
+      </style>
+      <script type="text/javascript">
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+      </script>
+    </div>
+    <div class="navbar">
+      <a href="https://feuerwehr-info.de">Home</a>
+      <a href="mailto:info.feuerwehr@web.de">E-Mail</a>
+      <a href="https://www.donationalerts.com/r/feuerwehr_info">Unterstützte mich</a>
+      <button class="navbut" type="button" onclick="window.print()" name="button">&#128424;</button>
+    </div>
+    <!--Hauptteil mit Bild und Überschrift-->
+    <div class="haupt">
+    <header class="hauptt">
+    <h1 class="ht">LZ-Schildow</h1>
+    </div>
+    <br>
+    <br>
+    <div class="infotext">
+      <h3>Löschzug Schildow</h3>
+      <img class="ffb" src="lzsd/lzsd.jpg" height="300" alt="Feuerwache Schönfließ">
+      <p align="left">
+      <br>
+      <b>Zugführer:</b>
+      <br>
+      <br>
+      <b>Herr Gunnar Prütz</b>
+      <br>
+      <br>
+      Gegründet: 1908
+      <br>
+      <br>
+      Einsatzabteilung: k.A.
+      <br>
+      Jugendabteilung: k.A.
+      </p>
+
+    </div>
+    <br><br><br>
+    <div class="fahrzeuge">
+      <h3>Fahrzeuge</h3>
+      <a href="#ff1">TLF-20/43 W (Florian Oberhavel 15/24-01)</a>
+      <br><br>
+      <a href="#ff2">TLF 30/90 (Florian Oberhavel 15/25-1)</a>
+      <br><br>
+      <a href="#ff3">HLF 20/16 (Florian Oberhavel 15/43-1)</a>
+      <br><br>
+      <a href="#ff4">DLAK 23/12 CS (Florian Oberhavel 15/33-01)</a>
+      <br><br>
+      <a href="#ff5">GW-L2 (Florian Oberhavel 15/59-1)</a>
+      <br><br>
+
+    </div>
+    <br><br><br><br>
+    <div id = "ff1">
+      <br><br>
+      <h4 align="center"><u>TLF-20/43 W</u></h4>
+      <div class="lf">
+        <p>
+          <b>Tanklöschfahrzeug (TLF-20/43 W) der FF Schildow,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: MAN LE 14.280 BB
+          <br><br>
+          Aufbau: Ziegler Giengen
+          <br><br>
+          Baujahr: 2005
+        </b></p>
+      </div>
+      <br><br><br>
+      <img class="ffb" src="lzsd/tlf.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <div id = "ff2">
+      <br>
+      <h4 align="center"><u>TLF 30/90</u></h4>
+      <div class="tlf">
+        <p><b>
+          Tanklöschfahrzeug (TLF 30/90) der FF Schildow,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: Tatra T815-7 V8 6x6
+          <br><br>
+          Aufbau: Thoma-WISS
+          <br><br>
+          Baujahr: 2015
+        </b></p>
+      </div>
+      <br><br><br><br>
+      <img class="ffb" src="lzsd/tatratlf.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <div id = "ff3">
+      <br>
+      <h4 align="center"><u>HLF 20/16</u></h4>
+      <div class="mtf">
+        <p><b>
+          Hilfeleistungslöschfahrzeug (HLF 20/16) der FF Schildow,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: MAN LE 13.280 BB
+          <br><br>
+          Aufbau: Ziegler Giengen
+          <br><br>
+          Baujahr: 2006
+        </b></p>
+      </div>
+      <br><br><br><br>
+      <img class="ffb" src="lzsd/hlf.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <div id = "ff4">
+      <br>
+      <h4 align="center"><u>DLAK 23/12 CS</u></h4>
+      <div class="mtf">
+        <p><b>
+          Drehleiter mit Korb (DLAK 23/12 CS) der FF Schildow,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: Iveco FF 160 E 30
+          <br><br>
+          Aufbau: Magirus Brandschutztechnik GmbH Ulm/Donau
+          <br><br>
+          Baujahr: 2009
+        </b></p>
+      </div>
+      <br><br><br><br>
+      <img class="ffb" src="lzsd/dlk.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <div id = "ff5">
+      <br>
+      <h4 align="center"><u>GW-L2</u></h4>
+      <div class="mtf">
+        <p><b>
+          Gerätewagen Logistik 2 (GW-L2) der FF Schildow,<br> Mühlenbecker Land
+          <br><br>
+          Fahrgestell: TGM 18.340 4x4 BB
+          <br><br>
+          Aufbau: FA-KA ZerbstFA-KA Zerbst
+          <br><br>
+          Baujahr: 2010
+        </b></p>
+      </div>
+      <br><br><br><br>
+      <img class="ffb" src="lzsd/gwl.jpg" alt="">
+      <br>
+      <br>
+    </div>
+    <br><br><br>
+    <br>
+    <br>
+    <br>
+  </div>
+</body>
+</html>
